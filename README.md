@@ -16,13 +16,14 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+ -->
+ 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -94,16 +95,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Angular](https://angular.io/)
-- [Svelte](https://svelte.dev/)
-- [Laravel](https://laravel.com)
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,25 +113,24 @@ This is an example of how to list things you need to use the software and how to
 
 - npm
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Start the Localhost:3000
    ```js
-   const API_KEY = "ENTER YOUR API";
+   npm start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -198,9 +190,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Mabast Ahmad - [@Mabast95](https://twitter.com/Mabast95) - mabast.n@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Mabast1/Dashboard](https://github.com/Mabast1/Dashboard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -212,11 +204,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
+- [TooltipComponent](https://ej2.syncfusion.com/react/documentation/tooltip/getting-started/)
 - [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -22,8 +22,8 @@ const Stacked = ({ width, height }) => {
       width={width}
       height={height}
       id="stack chart"
-      // primaryXAxis={stackedPrimaryXAxis}
-      // primaryYAxis={stackedPrimaryYAxis}
+      primaryXAxis={stackedPrimaryXAxis}
+      primaryYAxis={stackedPrimaryYAxis}
       chartArea={{ border: { width: 0 } }}
       tooltip={{ enable: true }}
       legendSettings={{ background: "white" }}

@@ -31,11 +31,11 @@ const Ecommerce = () => {
             />
           </div>
         </div>
-        <div className="flex w-full m-3 flex-wrap justify-between gap-1 items-center">
+        <div className="flex w-full m-3 flex-wrap justify-center gap-3 items-center">
           {earningData.map((item) => (
             <div
               key={item.title}
-              className="2xl:w-96 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl"
+              className="2xl:w-86 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-80 p-4 pt-9 rounded-2xl"
             >
               <button
                 type="button"
@@ -46,7 +46,7 @@ const Ecommerce = () => {
               </button>
               <p className="mt-3 ">
                 <span className="text-lg font-semibold">{item.amount}</span>
-                <span className={`text-sm text-${item.pcColor} ml-2`}>
+                <span className={`text-sm ${item.pcColor} ml-2`}>
                   {item.percentage}
                 </span>
               </p>
@@ -72,6 +72,25 @@ const Ecommerce = () => {
                 </span>
                 <span>Budget</span>
               </p>
+            </div>
+          </div>
+          <div className="mt-10 flex gap-10 flex-wrap justify-center">
+            <div className="border-r-1 border-color m-4 pr-10">
+              <div>
+                <p>
+                  <span className="text-3xl font-semibold">$93,438</span>
+                  <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
+                    23%
+                  </span>
+                </p>
+                <p className="text-gray-500 mt-1">Budget</p>
+              </div>
+              <div className="mt-8">
+                <p>
+                  <span className="text-3xl font-semibold">$48,308</span>
+                </p>
+                <p className="text-gray-500 mt-1">Expense</p>
+              </div>
             </div>
           </div>
         </div>

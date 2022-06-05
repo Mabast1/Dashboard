@@ -10,6 +10,7 @@ import {
   Page,
   ExcelExport,
   PdfExport,
+  Toolbar,
   Edit,
   Inject,
 } from "@syncfusion/ej2-react-grids";
@@ -26,6 +27,8 @@ const Orders = () => {
         dataSource={ordersData}
         allowPaging
         allowSorting
+        contextMenuItems={contextMenuItems}
+        toolbar={["Search"]}
       >
         <ColumnsDirective>
           {ordersGrid.map((item, index) => (
@@ -42,6 +45,7 @@ const Orders = () => {
             ExcelExport,
             PdfExport,
             Edit,
+            Toolbar,
           ]}
         />
       </GridComponent>

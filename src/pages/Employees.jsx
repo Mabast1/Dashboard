@@ -28,6 +28,7 @@ const Employees = () => {
         allowSorting
         toolbar={["Search"]}
         width="auto"
+        contextMenuItems={contextMenuItems}
       >
         <ColumnsDirective>
           {employeesGrid.map((item, index) => (

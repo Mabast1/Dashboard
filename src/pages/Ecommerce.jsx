@@ -13,25 +13,46 @@ import Schedule from "../components/Schedule";
 
 const Ecommerce = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-10">
       <div className="flex flex-wrap lg:flex-wrap justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
-          <div className="flex justify-between items-center">
-            <div>
-              <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$65,448.45</p>
+        <div className="bg-white overflow-y-hidden m-3 rounded-xl">
+          <div className="w-full flex justify-center">
+            <div className="w-full bg-gradient-to-r from-indigo-500 to-indigo-700 p-8">
+              <div>
+                <div className="flex flex-wrap items-center justify-evenly md:flex-row flex-col-reverse">
+                  <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6 flex-col md:block flex items-center justify-center md:pt-0 pt-4">
+                    <div>
+                      <p className=" text-xl font-bold text-gray-200">
+                        Earnings
+                      </p>
+                      <p className="text-3xl text-green-300">$65,448.45</p>
+                      <p className=" text-xl font-semibold text-gray-200 mt-4">
+                        Your earnings are outstanding, becoming a millionaire is
+                        not an easy task but you are off to a great start!
+                      </p>
+                    </div>
+                    <div className="mt-6">
+                      <Button
+                        color="white"
+                        bgColor="blue"
+                        text="Download"
+                        borderRadius="10px"
+                        size="md"
+                      />
+                    </div>
+                  </div>
+                  <div className="md:w-1/4 w-2/3">
+                    <img
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/CTA.png"
+                      alt="cartoon avatars"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="mt-6">
-            <Button
-              color="white"
-              bgColor="blue"
-              text="Download"
-              borderRadius="10px"
-              size="md"
-            />
-          </div>
         </div>
+
         <div className="flex w-full m-3 flex-wrap justify-center gap-3 items-center">
           {earningData.map((item) => (
             <div
@@ -56,7 +77,7 @@ const Ecommerce = () => {
           ))}
         </div>
       </div>
-      <div className="flex gap-1 flex-wrap">
+      <div className="flex gap-1 flex-wrap md:justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780">
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Update</p>

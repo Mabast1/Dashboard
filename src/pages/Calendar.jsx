@@ -1,6 +1,5 @@
 import React from "react";
 
-import { scheduleData } from "../data/dummy";
 import { Header } from "../components";
 import Schedule from "../components/Schedule";
 

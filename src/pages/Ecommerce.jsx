@@ -9,6 +9,7 @@ import {
   ecomPieChartData,
 } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
+import Schedule from "../components/Schedule";
 
 const Ecommerce = () => {
   return (
@@ -55,7 +56,7 @@ const Ecommerce = () => {
           ))}
         </div>
       </div>
-      <div className="flex gap-10 flex-wrap justify-center">
+      <div className="flex gap-1 flex-wrap">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780">
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Update</p>
@@ -115,6 +116,9 @@ const Ecommerce = () => {
               <Stacked width="320px" height="360px" />
             </div>
           </div>
+        </div>
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-6 rounded-2xl md:w-780">
+          <Schedule height={"450"} option={"Agenda"} selected={"true"} />
         </div>
       </div>
     </div>

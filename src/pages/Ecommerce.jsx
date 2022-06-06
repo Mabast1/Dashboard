@@ -8,6 +8,7 @@ import {
   SparklineAreaData,
   ecomPieChartData,
 } from "../data/dummy";
+import CTA from "../data/CTA.png";
 import { useStateContext } from "../contexts/ContextProvider";
 import Schedule from "../components/Schedule";
 
@@ -17,7 +18,7 @@ const Ecommerce = () => {
       <div className="flex flex-wrap lg:flex-wrap justify-center">
         <div className="bg-white overflow-y-hidden m-3 rounded-xl">
           <div className="w-full flex justify-center">
-            <div className="w-full bg-gradient-to-r from-indigo-500 to-indigo-700 p-8">
+            <div className="w-full bg-gradient-to-r from-indigo-700 to-indigo-500 p-8">
               <div>
                 <div className="flex flex-wrap items-center justify-evenly md:flex-row flex-col-reverse">
                   <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6 flex-col md:block flex items-center justify-center md:pt-0 pt-4">
@@ -42,10 +43,7 @@ const Ecommerce = () => {
                     </div>
                   </div>
                   <div className="md:w-1/4 w-2/3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/CTA.png"
-                      alt="cartoon avatars"
-                    />
+                    <img src={CTA} alt="cartoon avatars" />
                   </div>
                 </div>
               </div>

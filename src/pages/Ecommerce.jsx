@@ -20,7 +20,10 @@ const Ecommerce = () => {
       <div className="flex flex-wrap lg:flex-wrap justify-center">
         <div className="bg-white overflow-y-hidden m-3 rounded-xl">
           <div className="w-full flex justify-center">
-            <div className="w-full bg-gradient-to-r from-indigo-700 to-indigo-500 p-8">
+            <div
+              className="w-full p-8"
+              style={{ backgroundColor: currentColor }}
+            >
               <div>
                 <div className="flex flex-wrap items-center justify-evenly md:flex-row flex-col-reverse">
                   <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6 flex-col md:block flex items-center justify-center md:pt-0 pt-4">
@@ -37,7 +40,7 @@ const Ecommerce = () => {
                     <div className="mt-6">
                       <Button
                         color="white"
-                        bgColor={currentColor}
+                        bgColor={"#111827"}
                         text="Download"
                         borderRadius="10px"
                         size="md"

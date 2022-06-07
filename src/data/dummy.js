@@ -845,28 +845,28 @@ export const medicalproBranding = {
 
 export const themeColors = [
   {
-    name: "blue-theme",
+    name: "Blue Theme",
     color: "#1A97F5",
   },
   {
-    name: "green-theme",
-    color: "#03C9D7",
+    name: "Amber Theme",
+    color: "#fca311",
   },
   {
-    name: "purple-theme",
-    color: "#7352FF",
+    name: "Indigo Theme",
+    color: "#4339cb",
   },
   {
-    name: "red-theme",
+    name: "Red Theme",
     color: "#FF5C8E",
   },
   {
-    name: "indigo-theme",
-    color: "#1E4DB7",
+    name: "Charcol Theme",
+    color: "#14213d",
   },
   {
-    color: "#FB9678",
-    name: "orange-theme",
+    color: "#7209b7",
+    name: "Fuchsia Theme",
   },
 ];
 

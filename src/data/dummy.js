@@ -582,10 +582,10 @@ export const links = [
         name: "financial",
         icon: <RiStockLine />,
       },
-      {
-        name: "color-mapping",
-        icon: <BsBarChart />,
-      },
+      // {
+      //   name: "color-mapping",
+      //   icon: <BsBarChart />,
+      // },
       {
         name: "pyramid",
         icon: <GiLouvrePyramid />,

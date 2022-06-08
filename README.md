@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Mabast1/Dashboard">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="467" height="119">
   </a>
 
   <h3 align="center">Dashboard</h3>
@@ -79,23 +79,21 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/Mabast1/Dashboard/blob/master/images/screenshot.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The purpose of this porject was simply to experiement with the SyncFusion ej2 components with React utilizing Tailwind CSS framework to create a dashboard with all of my favorite components put together, I have used the Schedule (Calendar), Kanban, ColorPicker, RichTextEditor, and a few chart components. Now I can easily say I am in love with it and here is why: 
 
-Here's why:
+- I think developers time should be focused on creating something amazing. A project that solves a problem and helps others and not to try rebuilding the wheel. and Syncfusion components are a great help in accomplishing just that. 
+- Simplicity is key when you adpot a new technology, and I can not ask for it to be any simpler than importing components and rendering it. 
+- Customizability, highly customizable from styling to creating new features for specific components. 
+- Great Documentation, almost every senario is covered somewhere somehow within SyncFusion's documentation.  
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Definitly will be using it for a work projects as well if the need arises. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
 - [React.js](https://reactjs.org/)
+- [SyncFusion](https://ej2.syncfusion.com/home/react.html#platform)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -104,16 +102,21 @@ Use the `BLANK_README.md` to get started.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The project was built using `create-react-app` and all the dependences can be found within the package.json.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+To get all the dependances installed on your local device run: 
 
 - npm
   ```sh
   npm install
+  ```
+Or 
+
+- to make sure you install all the dependency versions I used when creating this project and to avoid any issues you can run:
+  ```sh 
+  npm install --legacy-peer-deps
   ```
 
 ### Installation
@@ -124,10 +127,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+   P.S. make sure to rename the folder to 'dashboard' with lowercase 'd' as I created this repo with uppercase for aesthetic purposes only. 
+2. To get all the dependances installed on your local device run: 
+    - to make sure you install all the dependency versions I used when creating this project and to avoid any issues you can run:
+      ```sh 
+      npm install --legacy-peer-deps
+      ``` 
+      or otherwise simply run `npm install`
 3. Start the Localhost:3000
    ```js
    npm start
@@ -137,17 +143,17 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
-## Roadmap
+<!-- ## Roadmap
 
 - [x] Add Changelog
 - [x] Add back to top links
@@ -155,7 +161,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
   - [ ] Chinese
-  - [ ] Spanish
+  - [ ] Spanish -->
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 

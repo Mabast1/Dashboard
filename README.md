@@ -81,7 +81,7 @@
 
 The purpose of this porject was simply to experiement with the SyncFusion ej2 components with React utilizing Tailwind CSS framework to create a dashboard with all of my favorite components put together, I have used the Schedule (Calendar), Kanban, ColorPicker, RichTextEditor, and a few chart components. Now I can easily say I am in love with it and here is why: 
 
-- I think developers time should be focused on creating something amazing. A project that solves a problem and helps others and not to try rebuilding the wheel. and Syncfusion components are a great help in accomplishing just that. 
+- I think developers time should be focused on creating something amazing. A project that solves a problem and helps others and not to try reinvent the wheel. Syncfusion components are a great help in accomplishing just that. 
 - Simplicity is key when you adpot a new technology, and I can not ask for it to be any simpler than importing components and rendering it. 
 - Customizability, highly customizable from styling to creating new features for specific components. 
 - Great Documentation, almost every senario is covered somewhere somehow within SyncFusion's documentation.  

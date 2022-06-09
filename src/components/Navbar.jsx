@@ -10,7 +10,7 @@ import profile from "../data/profile.png";
 import { Cart, Chat, Notification, UserProfile } from ".";
 import { useStateContext } from "../contexts/ContextProvider";
 
-const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
+const NavButton = ({ title, customFunc, icon, color, dotColor, text }) => (
   <TooltipComponent content={title} position="BottomCenter">
     <button
       type="button"
@@ -20,8 +20,10 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
     >
       <span
         style={{ background: dotColor }}
-        className="absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
-      />
+        className="absolute inline-flex items-center justify-center rounded-full h-4 w-4 right-1 top-1"
+      >
+        <p className="text-sm text-gray-100">{text}</p>
+      </span>
       {icon}
     </button>
   </TooltipComponent>
@@ -76,15 +78,17 @@ const Navbar = () => {
           title="Chat"
           customFunc={() => handleClick("chat")}
           color={currentColor}
-          dotColor="#03C9D7"
+          dotColor={currentColor}
           icon={<BsChatLeft />}
+          text="5"
         />
         <NavButton
           title="Notification"
           customFunc={() => handleClick("notification")}
           color={currentColor}
-          dotColor="#03C9D7"
+          dotColor={currentColor}
           icon={<RiNotification3Line />}
+          text="4"
         />
 
         <TooltipComponent content="Profile" position="BottomCenter">
